@@ -12,5 +12,6 @@ int main (){
     cout << "Hallo Rifka" << endl;
     cout << 10 << endl;
     cout << umur; 
-    
+    cout << "Program selesai." << endl;	
+return 0;
 }
