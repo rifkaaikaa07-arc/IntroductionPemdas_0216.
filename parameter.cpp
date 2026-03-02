@@ -17,3 +17,12 @@ int luaspersegi( int a,int b){
 }
 int jumlah(int x, int y, int z){
     return x+y+z;
+}
+void output(){
+    cout << "Hasilnya : " << luaspersegi(panjang,lebar) << endl; 
+}
+int main(){//mulai
+    input();
+    output();
+    cout << "Hasil dari penjumlahan : " << jumlah(3,2,7);
+}//selesai
