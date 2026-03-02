@@ -9,3 +9,7 @@ void prosedurinputdata (){
     cout << "masukkan diagonal_2 : ";
     cin >> d_2;
 }
+
+float prosedurhitungLuasKetupat(float d_1, float d_2){
+    return 0.5 * d_1 * d_2;
+}
