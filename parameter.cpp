@@ -11,3 +11,9 @@ void input(){
     cout << "masukkan lebar : ";
     cin >> lebar;
 }
+
+int luaspersegi( int a,int b){
+    return a * b;
+}
+int jumlah(int x, int y, int z){
+    return x+y+z;
