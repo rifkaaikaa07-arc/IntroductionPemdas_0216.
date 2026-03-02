@@ -13,3 +13,12 @@ void prosedurinputdata (){
 float prosedurhitungLuasKetupat(float d_1, float d_2){
     return 0.5 * d_1 * d_2;
 }
+
+void proseduroutput (){
+    cout << "LuasKetupat : " << prosedurhitungLuasKetupat(d_1, d_2) << endl;
+}
+
+int main (){
+    prosedurinputdata();
+    proseduroutput();
+}
